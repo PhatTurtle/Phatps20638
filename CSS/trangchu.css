@@ -1,0 +1,106 @@
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+    
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    figure,
+    picture {
+        margin: 0;
+    }
+    
+    body {
+        min-height: 100vh;
+        line-height: 1.5;
+    }
+    
+    input,
+    button,
+    select,
+    textarea {
+        font: inherit;
+    }
+    
+    img,
+    picture {
+        display: block;
+        max-width: 100%;
+    }
+    /* remove animation for people who've turned them off */
+    
+    @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+            animation-duration: 0.01ms !important;
+            animation-iteration-count: 1 !important;
+            transition-duration: 0.01ms !important;
+            scroll-behavior: auto !important;
+        }
+    }
+    
+    .banner {
+        background-color: black;
+        height: 100px;
+        border-radius: 10px;
+    }
+    
+    .banner img {
+        width: 70px;
+    }
+    
+    .banner a {
+        text-align: center;
+        padding-left: 140px;
+        margin: 0px 10px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .banner a:hover {
+        color: pink;
+        cursor: pointer;
+    }
+    
+    .Imatop img {
+        height: 500px;
+        width: 2000px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    
+    .sanpham h2 {
+        padding-top: 40px;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    
+    .heading {
+        font-size: 28px;
+        text-align: center;
+        color: aquamarine;
+        margin: 40px;
+    }
+    
+    .sanpham {
+        width: 28%;
+        margin: -70px 10px 20px 20px;
+        display: inline-block;
+        padding-left: 80px;
+        text-align: left;
+    }
+    
+    .phancuoi {
+        background-color: aqua;
+        height: 300px;
+        font-size: large;
+        text-align: center;
+    }
